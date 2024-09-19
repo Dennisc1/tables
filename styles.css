@@ -1,0 +1,23 @@
+
+thead{
+  background-color:lightblue;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+tbody{
+  background-color: lightgray;
+}
+tfoot{
+  background-color: pink;
+  text-align: center;
+}
+.time{
+  background-color: gold;
+  color: black;
+}
+caption{
+  text-align: center;
+  font-weight: bold;
+  font-size: 5rem;
+}

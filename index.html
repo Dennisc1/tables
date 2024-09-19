@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Dennis Celis - Table</title>
+</head>
+<body>
+  <section>
+    <img src="images/lifeparty.jpeg" alt="Life of The Party Cover" usemap="#workmap">
+  </section>
+  <map name="workmap">
+    <area target="_blank" alt="Kanye West Wikipedia" title="Kanye West Wikipedia" href="https://en.wikipedia.org/wiki/Kanye_West" coords="154,212,72" shape="circle">
+    <area target="_blank" alt="André 3000 Wikipedia" title="André 3000 Wikipedia" href="https://en.wikipedia.org/wiki/André_3000" coords="380,160,82" shape="circle">
+</map>
+<main>
+<form method="GET">
+  <div>
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" name="fullName">
+  </div>
+
+  <div>
+    <label for="useremail">Email</label>
+    <input type="email" id="useremail" name="useremail">
+  </div>
+
+  <div>
+    <p>Who is Better: </p>
+    <input type="radio" id="Kanye" name="choice">
+    <label for="Kanye">Kanye</label><br>
+    <input type="radio" id="André" name="choice">
+    <label for="André">André</label>
+  </div>
+
+  <div>
+    <label for="indate">Input Date: </label>
+    <input type="date" id="indate" name="indate">
+  </div>
+
+  <div>
+    <p>Favorite Songs: </p>
+    <input type="checkbox" id="allFalls" name = "allFalls">
+    <label for="allFalls">All Falls Down</label><br>
+    <input type="checkbox" id="jackson" name = "jackson">
+    <label for="jackson">Ms. Jackson</label><br>
+    <input type="checkbox" id="party" name = "choices">
+    <label for="party">Life of The Party</label><br>
+    <input type="checkbox" id="homecoming" name = "choices">
+    <label for="homecoming">Homecoming</label><br>
+    <input type="checkbox" id="fresh" name = "choices">
+    <label for="fresh">So Fresh, So Clean</label>
+  </div>
+
+  <div>
+    <p>Why did you choose Kanye or André?</p>
+    <label for="description">Description: </label><br>
+    <textarea name="description" id="description" rows="4" columns="50" placeholder="200 Chars Max"></textarea>
+  </div>
+  <input type="submit" id="submit" name="submit">
+  <input type="reset" id="reset" name="reset">
+</form>
+<table>
+<!--Create table from sample-->
+<caption>
+  Fall Schedule
+</caption>
+<colgroup span="5" class="weekdays"></colgroup>
+<colgroup span="2" class="weekend"></colgroup>
+<thead>
+<tr>
+<th class="time">Time</th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+<th>Sat</th>
+<th>Sun</th>
+</tr>
+</thead>
+<tbody>
+<th class="time">5:00 AM</th>
+<td rowspan="3" colspan="4">Wake up, Get ready, Drive to School</td>
+<td rowspan="5" colspan="3">Sleep & Free time</td>
+<tr>
+</tr>
+<th class="time">6:00 AM</th>
+<tr>
+</tr>
+<th class="time">7:00 AM</th>
+<td rowspan="5"  colspan="3">CS1410</td>
+<td rowspan="5">Minecraft</td>
+<tr>
+</tr>
+<th class="time">8:00 AM</th>
+<td rowspan="3" colspan="3">Minecraft</td>
+<tr>
+</tr>
+<th class="time">9:00 AM</th>
+<tr>
+</tr>
+<th class="time">10:00 AM</th>
+<td colspan="7" rowspan="5">Anime</td>
+<tr>
+</tr>
+<th class="time">11:00 AM</th>
+<tr>
+</tr>
+<th class="time">12:00 PM</th>
+<tr>
+</tr>
+
+
+<th class="time">3:00 PM</th>
+<td colspan="7">ETC</td>
+</tbody>
+</tr>
+
+<tfoot>
+<tr>
+  <td colspan="8">My Weekly Schedule</td>
+</tr>
+</tfoot>
+
+</table>
+</main>
+</body>
+</html>
